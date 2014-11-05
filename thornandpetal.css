@@ -1,0 +1,52 @@
+body {
+	background-image: url("thornandpetalbar1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 95%;
+	background-color: #5A1311;
+	margin-right: 8px;
+	padding-bottom: 0px;
+	border: 0px;
+}
+ 
+
+h1 {
+	text-align: left;
+	margin: 150px;
+	font-size: 17em;
+	font-family: 'Lobster', cursive;
+	color: #5A1311;
+	margin-bottom: -.5em;
+	text-shadow: -3px 3px 3px #999;
+	background-position: fixed;
+}
+
+
+p {
+	font-family: 'Indie Flower', cursive;
+	color: #FFFFFF;
+	font-size: 5.4em;
+	font-weight: bold;
+	margin-left: 740px;
+	padding-top: 400px;
+	background-position: fixed;
+}
+
+
+a {
+	font-family: 'Indie Flower', cursive;
+	color: #FFFFFF;
+	font-size: 1em;
+	margin-left: 680px;
+	padding-top: 400px;
+	background-position: fixed;
+}
+
+div-footer {
+	font-family: 'Indie Flower', cursive;
+	color: #FFFFFF;
+	font-size: 2.4em;
+	font-weight: bold;
+	margin-left: 680px;
+	padding-top: 500px;
+	background-position: fixed;
+}
