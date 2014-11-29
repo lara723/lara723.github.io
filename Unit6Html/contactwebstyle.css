@@ -1,0 +1,111 @@
+html {
+  box-sizing: "border-box";
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+	margin-top: 45px;
+	text-align: center;
+	font-family: "Raleway+500";
+	font-size: 24px;
+	letter-spacing: 0.15em;	
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+	
+}
+
+h1 {
+	font-family: "Arimo+400";
+	font-size: 18px;
+	margin-top: 0em;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	height: 24px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	font-variant: small-caps;
+	font-family: "Raleway+500";
+
+}
+
+a:hover {
+	background-color: #208AEE;
+}
+
+.list {
+	font-family: "Arimo+400";
+	display: block;
+	margin-left: 5%;
+	font-color: #FFFFFF;
+	font-style: bold;
+	letter-spacing: .1em;
+	text-decoration: none;
+	font-size: 22px;
+
+}
+
+nav {
+	margin-top: 45px;
+	background-color: #FFFFFF;
+	width: 210px;
+	margin-right: 80px;
+
+
+}
+
+h2 {
+	margin-top: 50px;
+	margin-left: 5%;
+	font-family: "Arimo+700", serif;
+	font-size: 18px;
+	font-variant: small-caps;
+	margin-bottom: 18px;
+
+
+}
+p {
+	margin-left: 5%;
+	font-family: "Arimo+700", serif;
+	font-size: 24px;
+	font-variant: small-caps;
+}
+
+address {
+	margin-left: 5%;
+	font-family: "Arimo+700", serif;
+	font-size: 18px;
+	font-variant: small-caps;
+
+
+}
+
+#inquirybox {
+	margin-top: 50%;
+	border: 3px black solid;
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #208AEE;
+}
+
+footer {
+	font-family: "Raleway+500";
+	font-size: 18px;
+	height: 21px;
+	margin-top: 640px;
+	text-align: center;
+	font-color: #000000;
+}

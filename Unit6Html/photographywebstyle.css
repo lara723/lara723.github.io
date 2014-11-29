@@ -1,0 +1,157 @@
+html {
+  box-sizing: "border-box";
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+	margin-top: 45px;
+	text-align: center;
+	font-family: "Raleway+500";
+	font-size: 24px;
+	letter-spacing: 0.15em;	
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+
+body {
+	background-color: #FFFFFF;
+	
+}
+
+h1 {
+	font-family: "Arimo+400";
+	font-size: 18px;
+	margin-top: 0em;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	height: 24px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	font-variant: small-caps;
+	font-family: "Raleway+500";
+
+}
+
+a:hover {
+	background-color: #208AEE;
+}
+
+.list {
+	font-family: "Arimo+400";
+	display: block;
+	margin-left: 5%;
+	font-color: #FFFFFF;
+	font-style: bold;
+	letter-spacing: .1em;
+	text-decoration: none;
+	font-size: 22px;
+	
+}
+
+nav {
+	margin-top: 45px;
+	background-color: #FFFFFF;
+	width: 210px;
+	margin-right: 80px;
+	margin-bottom: 15px;
+}	
+
+footer {
+	font-family: "Raleway+500";
+	font-size: 18px;
+	height: 21px;
+	text-align: center;
+	font-color: #000000;
+	line-height: 150%;
+	margin-top: 1600px;
+}
+
+.box {
+	width: 1024px;
+	height: 500px;
+	margin: 1em;
+}
+
+
+#one {
+	float: left;
+	text-align: justify;
+}
+
+
+#two {
+	float: right;
+	text-align: justify;
+}
+
+#three {
+	float: right;
+	text-align: left;
+
+}
+.stevie1 {
+	width: 380px;
+	height: 570px;
+	border: 0px auto;
+}
+
+#image1 {
+	border: 2.5px black solid;
+	width: 380px;
+	height: 570px;
+	float: left;
+	margin: 10px 10px 1em 1em;
+	background-color: #000000;
+}
+
+
+p {
+	letter-spacing: 0.1em;
+	line-height: 150%;
+	margin: 50px auto;
+	text-align: left;
+	text-indent: 1.5em;
+	font-size: 22px;
+}
+
+.theo1 {
+	width: 698px;
+	height: 652px;
+	border: 0px auto;
+}
+
+#image2 {
+	border: 2.5px black solid;
+	width: 698px;
+	height: 652px;
+	margin-top: 15px;
+	margin-left: 15px;
+	float: right;
+	background-color: #000000 ;
+
+}
+
+
+.stevie2 {
+	width: 452px;
+	height: 333px;
+	border: 15px auto;
+}
+
+#image3 {
+	border: 2.5px black solid;
+	width: 452px;
+	height: 333px;
+	margin: 2em auto;
+	float: right;
+	background-color: #000000;
+
+}

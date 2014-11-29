@@ -1,0 +1,142 @@
+html {
+  box-sizing: "border-box";
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+	margin-top: 45px;
+	text-align: center;
+	font-family: "Raleway+500";
+	font-size: 24px;
+	letter-spacing: 0.15em;	
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+
+body {
+	background-color: #FFFFFF;
+	
+}
+
+h1 {
+	font-family: "Arimo+400";
+	font-size: 18px;
+	margin-top: 0em;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	height: 24px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	font-variant: small-caps;
+	font-family: "Raleway+500";
+	font-color: #000000;
+
+}
+
+.list {
+	font-family: "Arimo+400";
+	display: block;
+	margin-left: 5%;
+	font-color: #FFFFFF;
+	font-style: bold;
+	letter-spacing: .1em;
+	text-decoration: none;
+	font-size: 22px;
+	
+}
+
+.theo1 {
+	width: 544px;
+	height: 821px;
+	border: 0px auto;
+}
+
+#imageA {
+	text-align: center;
+	margin-top: 80%;
+	font-family: "Arimo+700";
+	border: 2.5px black solid;
+	width: 566px;
+	height: 842px;
+	margin: 20px auto;
+	float: center;
+	background-color: #000000;
+
+}
+
+nav {
+	margin-top: 45px;
+	background-color: #FFFFFF;
+	width: 210px;
+	margin-right: 80px;
+
+}
+
+a:hover {
+	background-color: #208AEE;
+}
+
+footer {
+	font-family: "Raleway+500";
+	font-size: 18px;
+	height: 21px;
+	margin-top: 960px;
+	text-align: center;
+	font-color: #000000;
+	margin-top: 1600px;
+}
+
+
+p {
+	letter-spacing: 0.1em;
+	line-height: 150%;
+	margin: 50px auto;
+	text-align: left;
+	text-indent: 1.5em;
+	font-size: 22px;
+}
+
+
+.theo2 {
+	width: 544px;
+	height: 821px;
+	border: 0px auto;
+}
+
+#imageB {
+	margin-top: 80%;
+	font-family: "Arimo+700";
+	border: 2.5px black solid;
+	width: 544px;
+	height: 821px;
+	margin: 0 auto;
+	float: left;
+	background-color: #000000;
+
+}
+
+.theo3 {
+	width: 616px;
+	height: 408px;
+	border: 0px auto;
+
+}
+
+#imageC {
+	border: 2.5px black solid;
+	width: 616px;
+	height: 408px;
+	margin: 20px auto;
+	float: right;
+	background-color: #000000;
+}
+
+
