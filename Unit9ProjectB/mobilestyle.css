@@ -1,0 +1,251 @@
+html {
+  box-sizing: "border-box";
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+
+  .clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+}
+}
+
+body {
+	font-size: 24px;
+	background-color: #F5F5F5;
+	max-width: 100%;
+	height: auto;
+	font-color: #FFFFFF;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+
+}
+
+
+aside {
+	float: right;
+	padding-left: 33% auto;
+	clear: both;
+}
+
+#HeroImage {
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 284px;
+	height: 410px;
+	clear: both;
+}
+
+
+
+header {
+	margin-top: 4%;
+	font-color: #208AEE;
+	text-align: center;
+	font-family: "Raleway+500";
+	letter-spacing: .5em;	
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 2em;
+	line-height: 1.5em;
+	width: 100%;
+	clear: both;
+	
+}
+
+.menu1 {
+	display: inline;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	clear: both;
+
+
+}
+
+
+#about {
+	float: left;
+	width: 45%;
+	text-align: right;
+	padding-right: 2.5%;
+	line-height: 1.5em;
+	text-decoration: none;
+	font-color: #FFFFFF;
+}
+
+#contact {
+	float: left;
+	width: 45%;
+	text-align: left;
+	padding-left: 2.5%;
+	line-height: 1.5em;
+
+}
+
+
+nav {
+  font-family: "Arimo+700";
+  line-height: 1.3em;
+  margin: .5% auto; /*for display only*/
+  width: 100%;
+  -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+     -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+          box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+ 
+
+.NavHead h3 {
+  font-color: #000000;
+  font-size: 1em;
+  font-weight: 500;
+  padding: .25% .50%;
+  background-color: #F7F7F7; 
+  text-decoration: none;
+  clear: both;
+
+}
+
+.NavHead a {
+  color: black;
+  display: block;
+  background-color: #95ADC7;
+  text-decoration: none;
+  width: 33%;
+  border: 2% black solid ;
+  padding: .25% .50%;
+  font-size: 1em;
+
+}
+
+.NavHead ul {
+  font-size: .8em;
+  line-height: 1.2em;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+  height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+   
+  /*Animation*/
+  -webkit-transition: height 1s ease;
+     -moz-transition: height 1s ease;
+       -o-transition: height 1s ease;
+      -ms-transition: height 1s ease;
+          transition: height 1s ease;
+}
+}
+ 
+.NavHead ul a {
+  margin-left: .8em;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+ 
+.NavHead:hover ul {
+  height: 8.5em;
+}
+
+.NavHead li {
+  border-bottom: 1px solid #FFFFFF;
+  width: 100%;
+  border: 2% black solid ;
+  padding: .25% .50%;
+  font-size: 1em;
+  text-align: center;
+  clear: both;
+}
+
+.nav-menu li > a:after {
+    color: #000000;
+    content: '▾';
+}
+
+.nav-menu li > a:only-child:after {
+    content: '';
+}
+
+footer {
+	clear: both;
+	font-family: "Raleway+500";
+	font-color: #000000;
+	line-height: 3em;
+
+}
+
+
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  body {
+    font-size: 18px;
+  }
+
+  #wrapper {
+  	width: auto;
+  	height: auto;
+  }
+
+
+  .NavHead h3{
+    width: 100%;
+  }
+  .Navhead a {
+    width: 100%;
+    display: initial;
+    font-size: .75em;
+  }
+
+  .NavHead ul a {
+  float: left;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
+ 
+  .NavHead:hover ul {
+  height: 6em;
+}
+
+  .NavHead li {
+  border-bottom: 1px solid #FFFFFF;
+  width: 100%;
+  border: 2% black solid ;
+  padding: .25% .50%;
+  font-size: 1em;
+
+}
+
+header {
+	margin-top: 4%;
+	font-color: #208AEE;
+	text-align: center;
+	font-family: "Raleway+500";
+	letter-spacing: .5em;	
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+
+#HeroImage {
+	width: 15%%;
+	height: 15%;
+	clear: both;
+}
+
+
